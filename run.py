@@ -4,4 +4,8 @@ import os
 import sys
 
 path = sys.argv[1]
-os.system(f"gcc {path} && ./a.out && rm a.out")
+
+if path.endswith(".c") and os.path.exists(path):
+    os.system(f"gcc {path} && ./a.out && rm a.out")
+else:
+    print("Invalid file")
