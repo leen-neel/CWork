@@ -2,20 +2,21 @@
 
 int main()
 {
-    int age = 18;
-
+    // int
+    int age = 69420;
     printf("Age of consent is %d\n", age);
 
-    int a = 0, b = 0, sum = 0;
-    printf("\nEnter a number : ");
-    scanf("%d", &a);
+    // string
+    char ch = 'N';
+    printf("%c\n", ch);
 
-    printf("Enter another number : ");
-    scanf("%d", &b);
+    // float
+    float nice = 6.9;
+    printf("%f\n", nice);
 
-    sum = a + b;
-
-    printf("Sum is: %d\n", sum);
+    // double
+    double funny = 69420.24;
+    printf("%lf\n", funny);
 
     return 0;
 }
