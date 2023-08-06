@@ -2,6 +2,6 @@
 
 int main()
 {
-    printf("hi sexy");
+    printf("hello again\n");
     return 0;
 }
