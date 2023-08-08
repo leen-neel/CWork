@@ -14,6 +14,18 @@ Just like [JavaWork](https://github.com/leen-neel/**javawork**) this repo was ma
 
 If you're still here and want to run the C programs I wrote, use `run.py` like this:
 
+## Install `gcc`
+
+If you're on Ubuntu, you can install it via the following command:
+
+```bash
+sudo apt install gcc
+```
+
+Python should be installed by default on Ubuntu.
+
+## Run the program:
+
 - Make the script an executable:
 
 ```bash
