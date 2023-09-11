@@ -18,5 +18,9 @@ int main()
     double funny = 69420.24;
     printf("%lf\n", funny);
 
+    int x = 5;
+    printf("%d %d %d\n", ++x, x++, ++x);
+    printf("%d %d %d\n", x--, --x, x--);
+
     return 0;
 }
