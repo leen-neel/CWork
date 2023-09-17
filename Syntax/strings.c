@@ -6,9 +6,9 @@ int main()
     printf("Helloooo, my name is %s\n", name);
 
     // take string input
-    char name2[20];
+    char name2[20000];
     printf("\nEnter your name: ");
-    scanf("%s", name2);
+    scanf("%[^\n]", name2);
     printf("Helloooo, my name is %s\n", name2);
 
     return 0;
