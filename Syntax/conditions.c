@@ -7,7 +7,11 @@ int main()
 
     if (num > 5)
     {
-        printf("who very cool\n");
+        printf("whoa very cool\n");
+    }
+    else
+    {
+        printf("not cool\n");
     }
 
     return 0;
