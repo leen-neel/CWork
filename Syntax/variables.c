@@ -22,5 +22,9 @@ int main()
     char name[] = "Neel";
     printf("%s\n", name);
 
+    printf("Enter a character : ");
+    scanf("%c", &ch);
+    printf("You entered %c\n", ch);
+
     return 0;
 }
