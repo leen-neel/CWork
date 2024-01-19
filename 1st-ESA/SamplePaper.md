@@ -150,4 +150,26 @@ See [Program 3](https://github.com/leen-neel/CWork/blob/master/1st-ESA/3-GCD.c)
 
 **Transpose:** See [Program 32](https://github.com/leen-neel/CWork/blob/master/1st-ESA/32-Transpose.c)
 
-**Add:**
+**Add:** See [Program 31](https://github.com/leen-neel/CWork/blob/master/1st-ESA/31-AddMatrix.c)
+
+**Multiplication:** See [Program 33](https://github.com/leen-neel/CWork/blob/master/1st-ESA/33-MultiplyArray.c)
+
+## Question 15:
+
+Here's a simplified execution flow of a C program:
+
+**1. Sourse Code:**
+
+The source code is written using a text-editor or an IDE.
+
+**2. Compilation:**
+
+The compiler checks the source code for syntax errors and generates an assembly language file.
+
+**Assembly:**
+
+The assembler converts the assembly language file into an object file, which is a machine-readable file.
+
+**Linking:**
+
+The linker combines the object file with library files to create an executable file.
