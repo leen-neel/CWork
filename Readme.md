@@ -1,6 +1,6 @@
 # C Work
 
-Just like [JavaWork](https://github.com/leen-neel/**javawork**) this repo was made so that I can look at this years later and realize the pain I had to endure.
+Just like [JavaWork](https://github.com/leen-neel/JavaWork) this repo was made so that I can look at this years later and realize the pain I had to endure.
 
 # Things to do
 
