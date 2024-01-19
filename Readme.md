@@ -35,7 +35,7 @@ chmod +x ./run.py
 - Run the program you want to run:
 
 ```bash
-./run.py Basics/hello.c
+./run Basics/hello.c
 ```
 
 ## ⚠️ Note
