@@ -173,3 +173,81 @@ The assembler converts the assembly language file into an object file, which is 
 **Linking:**
 
 The linker combines the object file with library files to create an executable file.
+
+## Question 18 (labeled as 17):
+
+**`strlen()`:**
+
+```c
+#include <stdio.h>
+#include <string.h>
+
+int main() {
+    char str[100];
+
+    // Get the string from the user
+    printf("Enter a string: ");
+    fgets(str, sizeof(str), stdin);
+
+    // Remove the newline character from the entered string
+    str[strcspn(str, "\n")] = '\0';
+
+    // Calculate and display the length of the string
+    printf("Length of the string: %lu\n", strlen(str));
+
+    return 0; // Exit successfully
+}
+```
+
+**`strcpy()`:**
+
+```c
+#include <stdio.h>
+#include <string.h>
+
+int main() {
+    char source[100] = "Hello, World!";
+    char destination[100];
+
+    // Copy the contents of the source string to the destination string
+    strcpy(destination, source);
+
+    // Display the contents of the destination string
+    printf("Copied string: %s\n", destination);
+
+    return 0; // Exit successfully
+}
+```
+
+**`strcmp()`:**
+
+```c
+#include <stdio.h>
+#include <string.h>
+
+int main() {
+    char str1[100], str2[100];
+
+    // Get two strings from the user
+    printf("Enter the first string: ");
+    fgets(str1, sizeof(str1), stdin);
+
+    printf("Enter the second string: ");
+    fgets(str2, sizeof(str2), stdin);
+
+    // Remove newline characters from the entered strings
+    str1[strcspn(str1, "\n")] = '\0';
+    str2[strcspn(str2, "\n")] = '\0';
+
+    // Compare the two strings
+    int result = strcmp(str1, str2);
+
+    if (result == 0) {
+        printf("The two strings are equal.\n");
+    } else {
+        printf("The two strings are not equal.\n");
+    }
+
+    return 0; // Exit successfully
+}
+```
