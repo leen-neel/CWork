@@ -54,10 +54,10 @@ int main()
 
         for (int j = 0; j < SIZE; j++)
         {
-            arrSum[j][i] = arr[i][j] + arr2[i][j];
+            arrSum[i][j] = arr[i][j] + arr2[i][j];
         }
     }
 
-    printf("Transpose Matrix:");
+    printf("Sum of Matrix:");
     displayMatrix(arrSum);
 }
